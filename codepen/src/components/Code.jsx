@@ -5,7 +5,7 @@ import { Box, styled } from '@mui/material';
 
 const Container = styled(Box)`
     background-color: #060606;
-    height: 50vh;
+    height: 62vh;
     display: flex;
 `
 

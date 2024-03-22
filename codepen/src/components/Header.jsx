@@ -14,6 +14,7 @@ const Header = () => {
     <Container position='static'> 
         <Toolbar>
             <img src={logo} alt="logo" style={{ width: 40}} />
+            <h2 style={{padding: "5px"}}>CodePen</h2>
         </Toolbar>
     </Container>
     </>

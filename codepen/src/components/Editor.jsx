@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import '../App.css';
-import { Box, Typography, Button, styled } from '@mui/material';
+import { Box, styled } from '@mui/material';
 import CloseFullscreen from '@mui/icons-material/CloseFullscreen';
 import { Controlled as ControlledEditor } from 'react-codemirror2';
-import 'react-codemirror/node_modules/lib/codemirror.css';
+import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 import 'codemirror/mode/xml/xml';
 import 'codemirror/mode/css/css';
@@ -11,7 +11,7 @@ import 'codemirror/mode/javascript/javascript';
 
 const Container = styled(Box)`
     flex-grow: 1;
-    flex-basic: 0;
+    height: 30vh !important;
     display: flex;
     flex-direction: column;
     padding: 0 8px 8px;
